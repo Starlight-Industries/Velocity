@@ -1,0 +1,28 @@
+import { Button } from "std-widgets.slint";
+export component onboard inherits Window {
+    title: "Velocity onboarding";
+    width: 900px;
+    height: 500px;
+    background: #161219;
+    always-on-top: true;
+    HorizontalLayout {
+        VerticalLayout {
+            alignment: center;
+            Text {
+                text: "Welcome to velocity!";
+                font-size: 64px;
+                font-italic: true;
+                color: white;
+                horizontal-alignment: center;
+            }
+            Image {
+                source: @image-url("/home/chance/Development/velocity_daw/src/assets/icons/Velocity_idk.png");
+                width: 256px;
+            }
+        }
+        Button { 
+            text: "Next";
+            clicked => {self.text = "Clicked";}
+         }
+    }
+}
