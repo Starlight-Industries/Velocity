@@ -7,4 +7,4 @@ slint::slint! {
         title: "Velocity 0.1";
         icon: @image-url("src/assets/icons/Velocity_256x.png");
     }
-}d
+}
