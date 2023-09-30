@@ -1,8 +1,9 @@
-# Welcome to velocity!
+# 👋 Welcome to velocity!
 ## ⚙️ Version 0.1
 
 Velocity is a passion project DAW being developed by me (Cazdotsys)
 This project not only serves are a passion project but simply a learning experience for me and any contributors that happen to stop by, Velocity uses a very young Rust library called Slint for its UI and more libraries to come
+Disclaimer: I'm not a god-tier developer so if my contributors can be improved upon do let me know!
 
 ## ✏️ My/Our vision
 
